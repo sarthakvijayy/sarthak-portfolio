@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { JOBS } from "../../lib/data";
-import { EASE } from "../../lib/Constants";
+import { EASE } from "../../lib/constants";
 
 export default function Experience() {
   const ref = useRef(null);

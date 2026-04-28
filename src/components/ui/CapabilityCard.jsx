@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { motion } from "framer-motion";
-import { EASE } from "../../lib/Constants";
+import { EASE } from "../../lib/constants";
 
 function CapabilityCard({ title, desc, inView, delay }) {
   return (

@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Code2 } from "lucide-react";
 import { SKILLS } from "../../lib/data";
-import { EASE } from "../../lib/Constants";
+import { EASE } from "../../lib/constants";
 
 export default function Skills() {
   const ref = useRef(null);

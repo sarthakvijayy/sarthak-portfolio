@@ -3,7 +3,7 @@ import { motion, useInView } from "framer-motion";
 import ContactCard from "../ui/ContactCard";
 import { setCursorHover } from "../Cursor";
 import { CONTACTS } from "../../lib/data";
-import { EASE } from "../../lib/Constants";
+import { EASE } from "../../lib/constants";
 
 export default function Contact() {
   const ref = useRef(null);

@@ -3,7 +3,7 @@ import { motion, useInView } from "framer-motion";
 import CapabilityCard from "../ui/CapabilityCard";
 import Stat from "../ui/Stat";
 import { CAPABILITIES, STATS } from "../../lib/data";
-import { EASE } from "../../lib/Constants";
+import { EASE } from "../../lib/constants";
 
 export default function About() {
   const ref = useRef(null);

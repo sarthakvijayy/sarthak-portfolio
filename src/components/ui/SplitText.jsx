@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { motion } from "framer-motion";
-import { EASE } from "../../lib/Constants";
+import { EASE } from "../../lib/constants";
 
 function SplitText({ text = "", delay = 0 }) {
   // Defensive guard — if text isn't a string, render nothing

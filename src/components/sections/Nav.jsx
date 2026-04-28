@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import Magnetic from "../ui/Magnetic";
-import { EASE, NAV_LINKS, SECTION_IDS } from "../../lib/Constants";
+import { EASE, NAV_LINKS, SECTION_IDS } from "../../lib/constants";
 
 /**
  * Top navigation. Owns its own active-section state — uses IntersectionObserver
